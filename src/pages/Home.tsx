@@ -9,12 +9,12 @@ export default function Home() {
   const { t } = useTranslation();
 
   const serviceCards = [
-    { icon: Ship, title: t('home.services.ocean.title'), sub: t('home.services.ocean.sub'), desc: t('home.services.ocean.desc'), img: '/images/img_886c705aa1.jpg' },
-    { icon: PlaneTakeoff, title: t('home.services.air.title'), sub: t('home.services.air.sub'), desc: t('home.services.air.desc'), img: '/images/img_9d88eaaa2e.jpg' },
-    { icon: Train, title: t('home.services.rail.title'), sub: t('home.services.rail.sub'), desc: t('home.services.rail.desc'), img: '/images/img_30671c7789.jpg' },
-    { icon: Route, title: t('home.services.hybrid.title'), sub: t('home.services.hybrid.sub'), desc: t('home.services.hybrid.desc'), img: '/images/img_c0b5e42c4f.jpg' },
-    { icon: Warehouse, title: t('home.services.warehouse.title'), sub: t('home.services.warehouse.sub'), desc: t('home.services.warehouse.desc'), img: '/images/img_6a6d645457.jpg' },
-    { icon: ShieldCheck, title: t('home.services.customs.title'), sub: t('home.services.customs.sub'), desc: t('home.services.customs.desc'), img: '/images/img_ddc829e850.jpg' }
+    { icon: Ship, title: t('home.services.ocean.title'), sub: t('home.services.ocean.sub'), desc: t('home.services.ocean.desc'), img: 'https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=800&q=80' },
+    { icon: PlaneTakeoff, title: t('home.services.air.title'), sub: t('home.services.air.sub'), desc: t('home.services.air.desc'), img: 'https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&w=800&q=80' },
+    { icon: Train, title: t('home.services.rail.title'), sub: t('home.services.rail.sub'), desc: t('home.services.rail.desc'), img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/CN_8015%2C_5690_and_5517_Hinton_-_Jasper.jpg/960px-CN_8015%2C_5690_and_5517_Hinton_-_Jasper.jpg' },
+    { icon: Route, title: t('home.services.hybrid.title'), sub: t('home.services.hybrid.sub'), desc: t('home.services.hybrid.desc'), img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Haven_van_Rotterdam_2023_%2804%29.jpg/960px-Haven_van_Rotterdam_2023_%2804%29.jpg' },
+    { icon: Warehouse, title: t('home.services.warehouse.title'), sub: t('home.services.warehouse.sub'), desc: t('home.services.warehouse.desc'), img: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Warehouse_in_New_Jersey_where_trucks_deliver_granite_slabs.jpg' },
+    { icon: ShieldCheck, title: t('home.services.customs.title'), sub: t('home.services.customs.sub'), desc: t('home.services.customs.desc'), img: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80' }
   ];
 
   const workflowNodes = [
@@ -39,7 +39,7 @@ export default function Home() {
         {/* Background Image - Action shot: plane taking off at dusk */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/img_edbd1534ba.jpg" 
+            src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2674&auto=format&fit=crop" 
             alt="Cargo Plane Taking Off" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -195,7 +195,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 auto-rows-[300px] h-auto md:h-[600px]">
             {/* Box 1 (Large - 77%) */}
             <div className="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-2xl group border border-white/5 shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-              <img src="/images/img_f98528396b.jpg" alt="Port of Hamburg" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Burchardkai-Nacht-%28Hamburg%29-msu-2021-4873-.jpg/1280px-Burchardkai-Nacht-%28Hamburg%29-msu-2021-4873-.jpg" alt="Port of Hamburg" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/70 to-transparent mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-transparent to-transparent"></div>
               
@@ -210,7 +210,7 @@ export default function Home() {
 
             {/* Box 2 (Medium - 15%) */}
             <div className="md:col-span-1 md:row-span-1 relative overflow-hidden rounded-2xl group border border-white/5 shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-              <img src="/images/img_10fb11f8c5.jpg" alt="Port of Busan" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Busan-port-from-Busan-tower-2.jpg" alt="Port of Busan" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/80 to-[var(--color-navy)]/40 mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-transparent to-transparent"></div>
               
@@ -225,7 +225,7 @@ export default function Home() {
 
             {/* Box 3 (Small - 8%) */}
             <div className="md:col-span-1 md:row-span-1 relative overflow-hidden rounded-2xl group border border-white/5 shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-              <img src="/images/img_f98528396b.jpg" alt="Port of Singapore" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Burchardkai-Nacht-%28Hamburg%29-msu-2021-4873-.jpg/1280px-Burchardkai-Nacht-%28Hamburg%29-msu-2021-4873-.jpg" alt="Port of Singapore" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/80 to-[var(--color-navy)]/40 mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-transparent to-transparent"></div>
               
@@ -258,7 +258,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px] lg:h-[700px]">
              {/* 1. Industrial & Energy */}
              <div className="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-2xl group min-h-[300px] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.4)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <img src="/images/img_41d8153b9f.jpg" alt="Industrial and Energy" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200" alt="Industrial and Energy" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[var(--color-navy)]/50 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl transition-all duration-300 group-hover:bg-white/15">
                    <div className="flex flex-col sm:flex-row justify-between sm:items-start mb-4 gap-3">
@@ -271,7 +271,7 @@ export default function Home() {
 
              {/* 2. Complex Compliance */}
              <div className="md:col-span-1 md:row-span-1 relative overflow-hidden rounded-2xl group min-h-[250px] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.4)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <img src="/images/img_d2ee6edf3b.jpg" alt="Complex Compliance" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+                <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=800" alt="Complex Compliance" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[var(--color-navy)]/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl transition-all duration-300 group-hover:bg-white/15">
                    <div className="flex flex-col mb-2 items-start gap-2">
@@ -284,7 +284,7 @@ export default function Home() {
 
              {/* 3. Temperature Controlled */}
              <div className="md:col-span-1 md:row-span-1 relative overflow-hidden rounded-2xl group min-h-[250px] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.4)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <img src="/images/img_ff19877406.jpg" alt="Temperature Controlled" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+                <img src="https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?auto=format&fit=crop&q=80&w=800" alt="Temperature Controlled" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[var(--color-navy)]/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl transition-all duration-300 group-hover:bg-white/15">
                    <div className="flex flex-col mb-2 items-start gap-2">
@@ -297,7 +297,7 @@ export default function Home() {
 
              {/* 4. Fragile & High-Value */}
              <div className="md:col-span-1 md:row-span-1 relative overflow-hidden rounded-2xl group min-h-[250px] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.4)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <img src="/images/img_caf3a8acf1.jpg" alt="Fragile and High Value" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=800" alt="Fragile and High Value" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[var(--color-navy)]/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl transition-all duration-300 group-hover:bg-white/15">
                    <div className="flex flex-col mb-2 items-start gap-2">
@@ -310,7 +310,7 @@ export default function Home() {
 
              {/* 5. E-commerce & Retail */}
              <div className="md:col-span-1 md:row-span-1 relative overflow-hidden rounded-2xl group min-h-[250px] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.4)] hover:-translate-y-1.5 transition-all duration-300 cursor-default">
-                <img src="/images/img_2440ab2c8a.jpg" alt="E-commerce and Retail" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+                <img src="https://picsum.photos/seed/retail/800/800" alt="E-commerce and Retail" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[var(--color-navy)]/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl transition-all duration-300 group-hover:bg-white/15">
                    <div className="flex flex-col mb-2 items-start gap-2">
