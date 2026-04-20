@@ -16,7 +16,7 @@ export default function Services() {
       <section className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-[var(--color-navy)] text-white border-b border-white/10">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/optimized_images/img_65f88939ba.webp" 
+            src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2670&fm=webp" 
             alt="Logistics Network" 
             className="w-full h-full object-cover grayscale opacity-20"
             referrerPolicy="no-referrer"
@@ -57,7 +57,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Sea Freight */}
             <div className="relative overflow-hidden rounded-2xl group border border-white/5 bg-[var(--color-navy)] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] hover:-translate-y-1.5 transition-all duration-300 min-h-[360px] flex flex-col cursor-default">
-              <img src="/optimized_images/img_e803df9be6.webp" alt="Sea Freight" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&q=80&w=800&fm=webp" alt="Sea Freight" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/80 to-[var(--color-navy)]/40 mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/50 to-transparent"></div>
               
@@ -72,7 +72,7 @@ export default function Services() {
 
             {/* Air Freight */}
             <div className="relative overflow-hidden rounded-2xl group border border-white/5 bg-[var(--color-navy)] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] hover:-translate-y-1.5 transition-all duration-300 min-h-[360px] flex flex-col cursor-default">
-              <img src="/optimized_images/img_9615e4fab9.webp" alt="Air Freight" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&q=80&w=800&fm=webp" alt="Air Freight" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/80 to-[var(--color-navy)]/40 mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/50 to-transparent"></div>
               
@@ -87,7 +87,7 @@ export default function Services() {
 
             {/* Rail & Road */}
             <div className="relative overflow-hidden rounded-2xl group border border-white/5 bg-[var(--color-navy)] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] hover:-translate-y-1.5 transition-all duration-300 min-h-[360px] flex flex-col cursor-default">
-              <img src="/optimized_images/img_30671c7789.webp" alt="Rail Transport" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/CN_8015%2C_5690_and_5517_Hinton_-_Jasper.jpg/960px-CN_8015%2C_5690_and_5517_Hinton_-_Jasper.jpg" alt="Rail Transport" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/80 to-[var(--color-navy)]/40 mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/50 to-transparent"></div>
               
@@ -102,7 +102,7 @@ export default function Services() {
 
             {/* Sea-Air Hybrid */}
             <div className="relative overflow-hidden rounded-2xl group border border-white/5 bg-[var(--color-navy)] shadow-sm hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] hover:-translate-y-1.5 transition-all duration-300 min-h-[360px] flex flex-col cursor-default">
-              <img src="/optimized_images/img_d969cb8d0c.webp" alt="Hybrid Logicstics" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=800&fm=webp" alt="Hybrid Logicstics" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-[#0F172A]/80 to-[var(--color-navy)]/40 mix-blend-multiply"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A] via-[#0F172A]/50 to-transparent"></div>
               
@@ -131,7 +131,7 @@ export default function Services() {
             <div className="relative">
                {/* Left Image Stack */}
                <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px] md:h-[500px]">
-                 <img src="/optimized_images/img_6a6d645457.webp" className="w-full h-full object-cover" alt="Warehouse Facilities" referrerPolicy="no-referrer" />
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Warehouse_in_New_Jersey_where_trucks_deliver_granite_slabs.jpg" className="w-full h-full object-cover" alt="Warehouse Facilities" referrerPolicy="no-referrer" />
                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A]/80 to-transparent mix-blend-multiply"></div>
                </div>
                {/* Badge Card */}
