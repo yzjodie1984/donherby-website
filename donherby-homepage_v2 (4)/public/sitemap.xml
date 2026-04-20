@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://donherby.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donherby.com/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://donherby.com/" />
+  </url>
+  <url>
+    <loc>https://donherby.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donherby.com/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://donherby.com/about" />
+  </url>
+  <url>
+    <loc>https://donherby.com/services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donherby.com/services" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://donherby.com/services" />
+  </url>
+  <url>
+    <loc>https://donherby.com/expertise</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donherby.com/expertise" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://donherby.com/expertise" />
+  </url>
+  <url>
+    <loc>https://donherby.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donherby.com/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://donherby.com/contact" />
+  </url>
+</urlset>
