@@ -17,7 +17,7 @@ export default function Expertise() {
       <section className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-[var(--color-navy)] text-white border-b border-white/10">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200" 
+            src="/optimized_images/img_41d8153b9f.webp" 
             alt="Jet Engine Turbine" 
             className="w-full h-full object-cover grayscale opacity-20"
             referrerPolicy="no-referrer"
@@ -76,7 +76,7 @@ export default function Expertise() {
             </div>
             
             <div className="relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)] group border border-slate-200">
-               <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&q=80&w=1200" alt="Aerospace Engineering" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]" referrerPolicy="no-referrer" />
+               <img src="/optimized_images/img_5563129c3c.webp" alt="Aerospace Engineering" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]" referrerPolicy="no-referrer" />
                <div className="absolute inset-0 bg-gradient-to-t from-white/60 via-transparent to-transparent"></div>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Expertise() {
 
              {/* Image Left */}
              <div className="relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)] group border border-white/10">
-               <img src="https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?auto=format&fit=crop&q=80&w=1200" alt="Thermal Engineering" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+               <img src="/optimized_images/img_bf070df7ea.webp" alt="Thermal Engineering" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
                <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A]/80 to-transparent mix-blend-multiply border border-cyan-500/0 group-hover:border-cyan-500/20 transition-colors"></div>
             </div>
 
@@ -156,7 +156,7 @@ export default function Expertise() {
             </div>
             
             <div className="relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-[0_20px_40px_-10px_rgba(0,0,0,0.15)] group border border-slate-200">
-               <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200" alt="Industrial Heavy Lift" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]" referrerPolicy="no-referrer" />
+               <img src="/optimized_images/img_d96928aae3.webp" alt="Industrial Heavy Lift" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]" referrerPolicy="no-referrer" />
                <div className="absolute inset-0 bg-gradient-to-t from-white/60 via-transparent to-transparent"></div>
             </div>
           </div>

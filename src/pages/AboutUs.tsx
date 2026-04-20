@@ -17,7 +17,7 @@ const About = () => {
       <section className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-[var(--color-navy)] text-white">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=2670"
+            src="/optimized_images/img_42517245d2.webp"
             alt="Corporate Architecture"
             className="w-full h-full object-cover grayscale"
             referrerPolicy="no-referrer"
@@ -73,7 +73,7 @@ const About = () => {
               </p>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-[0_20px_40px_-10px_rgba(0,0,0,0.15)] group border border-slate-200">
-              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1200" alt="Team Synergy" className="absolute inset-0 w-full h-full object-cover grayscale opacity-90 transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
+              <img src="/optimized_images/img_155f681be9.webp" alt="Team Synergy" className="absolute inset-0 w-full h-full object-cover grayscale opacity-90 transition-transform duration-700 group-hover:scale-[1.03]" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-[var(--color-navy)]/10 mix-blend-multiply"></div>
             </div>
           </div>
@@ -84,7 +84,7 @@ const About = () => {
       <section className="py-32 bg-slate-50 text-[var(--color-navy)] relative overflow-hidden">
          {/* Map Background */}
          <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
-            <img src="https://images.unsplash.com/photo-1589519160732-57fc498494f8?auto=format&fit=crop&q=80&w=1600" alt="Global Network" className="w-full h-full object-cover opacity-[0.05] mix-blend-multiply" referrerPolicy="no-referrer" />
+            <img src="/optimized_images/img_8da8d41969.webp" alt="Global Network" className="w-full h-full object-cover opacity-[0.05] mix-blend-multiply" referrerPolicy="no-referrer" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-50 via-transparent to-slate-50"></div>
          </div>
 

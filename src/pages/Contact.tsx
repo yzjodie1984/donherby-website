@@ -16,7 +16,7 @@ export default function Contact() {
       <section className="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-[var(--color-navy)] text-white border-b border-white/10">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?auto=format&fit=crop&q=80&w=2670" 
+            src="/optimized_images/img_cc7563c281.webp" 
             alt="Consultancy Background" 
             className="w-full h-full object-cover grayscale opacity-20"
             referrerPolicy="no-referrer"
