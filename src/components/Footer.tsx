@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
@@ -23,8 +24,8 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6 border-t border-white/10 pt-8 text-xs font-bold uppercase tracking-widest text-[var(--color-cool-gray)]/60">
           <div>&copy; {new Date().getFullYear()} DonHerby International Freight Forwarding Co., Ltd.</div>
           <div className="flex space-x-8">
-             <a href="#" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
-             <a href="#" className="hover:text-white transition-colors">{t('footer.terms')}</a>
+             <Link to="/privacy-policy" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
+             <Link to="/terms-of-service" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
           </div>
         </div>
       </footer>
