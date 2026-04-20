@@ -80,32 +80,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* 3. Leadership Spotlight: Louis Cai */}
-      <section className="py-24 bg-[#0F172A] text-white">
-         <div className="max-w-7xl mx-auto px-6 lg:px-8">             <div className="text-center mb-16">
-              <h2 className="text-sm font-bold tracking-widest uppercase text-[var(--color-accent-orange)] mb-4">{t('about.leader_subtitle')}</h2>
-              <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight">{t('about.leader_title')}</h3>
-            </div>
-            <div className="bg-[var(--color-navy)] rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row border border-white/10">
-               {/* Portrait */}
-               <div className="lg:w-2/5 relative h-[500px] lg:min-h-full overflow-hidden">
-                 <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=800" alt="Louis Cai - Managing Director" className="absolute inset-0 w-full h-full object-cover grayscale opacity-90" referrerPolicy="no-referrer" />
-                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-navy)] via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:via-transparent lg:to-[var(--color-navy)]"></div>
-               </div>
-               {/* Content */}
-               <div className="lg:w-3/5 p-10 md:p-16 text-white flex flex-col justify-center">
-                  <h3 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mb-2">{t('about.leader_name')}</h3>
-                  <p className="text-xl text-[var(--color-accent-blue)] font-medium mb-8">{t('about.leader_role')}</p>
-                  
-                  <div className="space-y-6 text-slate-300 text-lg font-medium leading-relaxed">
-                    <p>{t('about.leader_desc_1')}</p>
-                    <p>{t('about.leader_desc_2')}</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
       {/* 4. Market Mastery: The 77/15/8 Split */}
       <section className="py-32 bg-slate-50 text-[var(--color-navy)] relative overflow-hidden">
          {/* Map Background */}

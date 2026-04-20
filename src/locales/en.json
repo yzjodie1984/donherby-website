@@ -22,7 +22,7 @@
   "footer": {
     "desc": "DonherBy is a premier boutique logistics firm providing strategic multimodal solutions for global supply chains.",
     "contact": "Contact",
-    "address": "Room 201, No.1 Anyuan Rd., Shanghai",
+    "address": "Room 201, No.1 Anyuan Road, Jing'an District, Shanghai",
     "tel": "Tel/WeChat/WhatsApp: +86 138 1639 9242",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
@@ -35,7 +35,7 @@
     "title": "Consult with our Strategists",
     "desc": "Direct access to senior leadership ensures your complex logistics challenges are met with aviation-grade precision.",
     "hq_title": "Headquarters",
-    "hq_address": "Room 201, No.1 Anyuan Rd.",
+    "hq_address": "Room 201, No.1 Anyuan Road, Jing'an District",
     "hq_city": "Shanghai, China",
     "email_title": "Direct Email",
     "phone_title": "Tel / WeChat / WhatsApp"
@@ -45,8 +45,8 @@
     "desc": "Operating seamlessly alongside the world's premier ocean carriers and logistics providers to ensure priority routing."
   },
   "home": {
-    "hero_title1": "Your Agile Gateway to",
-    "hero_title2": "Global Supply Chain Excellence.",
+    "hero_title1": "Door-to-Door",
+    "hero_title2": "Global Logistics.",
     "hero_desc": "Leveraging 15+ years of strategic expertise to deliver seamless, end-to-end logistics from China to the world. We don’t just move cargo; we optimize your business flow.",
     "hero_cta": "Explore Our Solutions",
     "edge_title": "Precision. Agility. Expertise.",
